@@ -1,5 +1,40 @@
 # Changelog
 
+## [2026.10.22](https://github.com/jdx/mise/releases/tag/v2026.10.22) - 2026-10-27
+
+### 🚀 Features
+
+- **(http)** add ipv4_only setting for hosts that fail over IPv6 by @jdx in [#15057](https://github.com/jdx/mise/pull/15057)
+
+### 🐛 Bug Fixes
+
+- **(aqua)** stop warning "invalid aqua tool" for custom registry packages by @jdx in [#15048](https://github.com/jdx/mise/pull/15048)
+- **(config)** treat an empty system_packages.elevate_with as "never elevate" by @jdx in [#15049](https://github.com/jdx/mise/pull/15049)
+- **(config)** stop warning about a version-file link to a sibling version file by @jdx in [#15058](https://github.com/jdx/mise/pull/15058)
+- **(gem)** quote paths in generated wrapper scripts by @jdx in [#15055](https://github.com/jdx/mise/pull/15055)
+- **(packslip)** log versions held back by minimum_release_age at debug level by @jdx in [#15056](https://github.com/jdx/mise/pull/15056)
+- **(remote-source)** validate git ref in remote git sources by @Huge in [#14832](https://github.com/jdx/mise/pull/14832)
+- hide the Windows console for prompt-started tool updates by @yusoofsh in [#15038](https://github.com/jdx/mise/pull/15038)
+
+### 📦️ Dependency Updates
+
+- update github actions by @renovate[bot] in [#15039](https://github.com/jdx/mise/pull/15039)
+- update ubuntu docker tag to resolute-20261006 by @renovate[bot] in [#15040](https://github.com/jdx/mise/pull/15040)
+- update rust crates by @renovate[bot] in [#15041](https://github.com/jdx/mise/pull/15041)
+- update github actions by @renovate[bot] in [#15046](https://github.com/jdx/mise/pull/15046)
+- lock file maintenance by @renovate[bot] in [#15043](https://github.com/jdx/mise/pull/15043)
+- update mise tools by @renovate[bot] in [#15042](https://github.com/jdx/mise/pull/15042)
+- update rust crates to v1.12.0 by @renovate[bot] in [#15050](https://github.com/jdx/mise/pull/15050)
+- lock file maintenance by @renovate[bot] in [#15062](https://github.com/jdx/mise/pull/15062)
+
+### 📦 Registry
+
+- fix docuum and android-sdk test expectations by @jdx in [#15067](https://github.com/jdx/mise/pull/15067)
+
+### New Contributors
+
+- @yusoofsh made their first contribution in [#15038](https://github.com/jdx/mise/pull/15038)
+
 ## [2026.10.21](https://github.com/jdx/mise/releases/tag/v2026.10.21) - 2026-10-27
 
 ### 🚀 Features
